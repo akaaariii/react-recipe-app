@@ -4,4 +4,6 @@
 
 ## Overview
 
-This product uses API from [EDAMAM](https://www.edamam.com/)
+This product uses API from [EDAMAM](https://www.edamam.com)
+
+[https://akaaariii.github.io/react-recipe-app](https://akaaariii.github.io/react-recipe-app)
