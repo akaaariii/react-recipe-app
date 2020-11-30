@@ -1,0 +1,40 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+h1, h2 {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.search-form {
+  margin: 30px;
+  text-align: center;
+
+  .search-bar {
+    padding: 5px;
+    width: 20%;
+  }
+  .search-btn {
+    padding: 5px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    background-color: white;
+    color: #5b8f24;
+    font-weight: bold;
+    outline: none;
+
+    &:hover {
+      color: #82c836;
+    }
+  }
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
