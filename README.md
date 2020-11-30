@@ -6,4 +6,4 @@
 
 This product uses API from [EDAMAM](https://www.edamam.com)
 
-[https://akaaariii.github.io/react-recipe-app](https://akaaariii.github.io/react-recipe-app)
+demo: [https://akaaariii.github.io/react-recipe-app](https://akaaariii.github.io/react-recipe-app)
