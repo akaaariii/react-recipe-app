@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Recipe.scss";
+import notfound from '../../assets/images/no_image.svg';
 
 const Recipe = ({title, calories, image, ingredients}) => {
 
@@ -9,7 +10,11 @@ const Recipe = ({title, calories, image, ingredients}) => {
     <div className="recipe-card">
       <h2>{title}</h2>
       <p>{cal} calories</p>
-      <img src={image} alt="recipe" />
+      {image ?
+        <img src={image} alt="recipe" />
+        :
+        <img src={notfound} alt="not found" />
+      }
       <h4>Ingredients</h4>
       <ul>
         {ingredients.map((ingredient, index) => (
