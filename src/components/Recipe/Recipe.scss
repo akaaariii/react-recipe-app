@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 .recipe-card {
   border-radius: 10px;
   box-shadow: 0px 5px 15px #626262;
-  margin: 20px;
+  margin: 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   align-items: center;
 
   h2, h4, p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   h4 {
@@ -20,5 +20,7 @@
 
   li {
     font-size: .8em;
+    font-style: italic;
+    list-style: square;
   }
 }
