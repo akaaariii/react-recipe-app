@@ -23,18 +23,19 @@ ul {
     }
   }
   .search-btn {
+    font-family: 'Lato', sans-serif;
     padding: 5px 15px;
     margin-left: 10px;
     cursor: pointer;
-    border: 1px solid #afafaf;
     border-radius: 5px;
-    background-color: white;
-    color: #5b8f24;
+    background-color: #82c836;
+    color: #fff;
+    border: none;
     font-weight: bold;
     outline: none;
 
     &:hover {
-      color: #82c836;
+      background-color: #8ddf37;
     }
   }
 }
