@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Recipe.scss";
+import './Recipe.scss';
 import imageNotFound from '../../assets/images/no_image.svg';
 
 const Recipe = ({ title, calories, image, ingredients }) => {
