@@ -9,36 +9,6 @@ ul {
   padding: 0;
   margin: 0;
 }
-.search-form {
-  margin: 30px;
-  text-align: center;
-
-  .search-bar {
-    padding: 5px;
-    width: 60%;
-  }
-  @media (min-width: 768px){
-    .search-bar {
-      width: 30%;
-    }
-  }
-  .search-btn {
-    font-family: 'Lato', sans-serif;
-    padding: 5px 15px;
-    margin-left: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: #82c836;
-    color: #fff;
-    border: none;
-    font-weight: bold;
-    outline: none;
-
-    &:hover {
-      background-color: #8ddf37;
-    }
-  }
-}
 .recipes {
   display: flex;
   justify-content: space-around;

@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import './App.scss';
 
+import Alert from "./components/Alert/Alert";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Recipe from "./components/Recipe/Recipe";
-import Alert from './components/Alert/Alert';
+import SearchForm from './components/SearchForm'
+
+const APP_ID = `${process.env.REACT_APP_RECIPE_APP_ID}`;
+const API_KEY = `${process.env.REACT_APP_RECIPE_API_KEY}`;
 
 const App = () => {
-  const APP_ID = `${process.env.REACT_APP_RECIPE_APP_ID}`;
-  const API_KEY = `${process.env.REACT_APP_RECIPE_API_KEY}`;
-
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("potato");
@@ -43,11 +44,12 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <form onSubmit={getSearch} className="search-form">
-        {alert !== "" && <Alert alert={alert} />}
-        <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder="Search Recipes (*e.g.: potato)" />
-        <button className="search-btn" type="submit">Search</button>
-      </form>
+      {alert !== "" && <Alert alert={alert} />}
+      <SearchForm
+        search={search}
+        onSubmit={getSearch}
+        updateSearch={updateSearch}
+      />
       <div className="recipes">
         {recipes !== [] && recipes.map((recipe) => (
           <Recipe 
