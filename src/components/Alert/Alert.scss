@@ -1,13 +1,6 @@
 .alert {
-  background-color: #ff664b;
-  margin: auto;
-
-  @media (min-width: 768px){
-    width: 40%;
-  }
-
-  h3 {
-    color: #fff;
-    padding: 5px;
+  h4 {
+    color: #ff0000;
+    text-align: center;
   }
 }

@@ -25,7 +25,7 @@ const App = () => {
     const data = await response.json();
 
     if(!data.more) {
-      return setAlert('No food with such name')
+      return setAlert('*No food with such name')
     }
     setRecipes(data.hits);
   };
