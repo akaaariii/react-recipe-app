@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-recipe-app/static/css/main.f9a70be3.chunk.css",
-    "main.js": "/react-recipe-app/static/js/main.ade51d29.chunk.js",
-    "main.js.map": "/react-recipe-app/static/js/main.ade51d29.chunk.js.map",
-    "runtime-main.js": "/react-recipe-app/static/js/runtime-main.04b64a30.js",
-    "runtime-main.js.map": "/react-recipe-app/static/js/runtime-main.04b64a30.js.map",
+    "main.css": "/react-recipe-app/static/css/main.70621028.chunk.css",
+    "main.js": "/react-recipe-app/static/js/main.0de2152a.chunk.js",
+    "main.js.map": "/react-recipe-app/static/js/main.0de2152a.chunk.js.map",
+    "runtime-main.js": "/react-recipe-app/static/js/runtime-main.b1e414ef.js",
+    "runtime-main.js.map": "/react-recipe-app/static/js/runtime-main.b1e414ef.js.map",
     "static/js/2.feca7869.chunk.js": "/react-recipe-app/static/js/2.feca7869.chunk.js",
     "static/js/2.feca7869.chunk.js.map": "/react-recipe-app/static/js/2.feca7869.chunk.js.map",
-    "static/js/3.5afcac1e.chunk.js": "/react-recipe-app/static/js/3.5afcac1e.chunk.js",
-    "static/js/3.5afcac1e.chunk.js.map": "/react-recipe-app/static/js/3.5afcac1e.chunk.js.map",
+    "static/js/3.2b4eda9a.chunk.js": "/react-recipe-app/static/js/3.2b4eda9a.chunk.js",
+    "static/js/3.2b4eda9a.chunk.js.map": "/react-recipe-app/static/js/3.2b4eda9a.chunk.js.map",
     "index.html": "/react-recipe-app/index.html",
-    "static/css/main.f9a70be3.chunk.css.map": "/react-recipe-app/static/css/main.f9a70be3.chunk.css.map",
+    "static/css/main.70621028.chunk.css.map": "/react-recipe-app/static/css/main.70621028.chunk.css.map",
     "static/js/2.feca7869.chunk.js.LICENSE.txt": "/react-recipe-app/static/js/2.feca7869.chunk.js.LICENSE.txt",
     "static/media/no_image.a372460a.svg": "/react-recipe-app/static/media/no_image.a372460a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.04b64a30.js",
+    "static/js/runtime-main.b1e414ef.js",
     "static/js/2.feca7869.chunk.js",
-    "static/css/main.f9a70be3.chunk.css",
-    "static/js/main.ade51d29.chunk.js"
+    "static/css/main.70621028.chunk.css",
+    "static/js/main.0de2152a.chunk.js"
   ]
 }
