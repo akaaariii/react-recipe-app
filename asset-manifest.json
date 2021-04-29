@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-recipe-app/static/css/main.70621028.chunk.css",
-    "main.js": "/react-recipe-app/static/js/main.0de2152a.chunk.js",
-    "main.js.map": "/react-recipe-app/static/js/main.0de2152a.chunk.js.map",
+    "main.js": "/react-recipe-app/static/js/main.b41a13c3.chunk.js",
+    "main.js.map": "/react-recipe-app/static/js/main.b41a13c3.chunk.js.map",
     "runtime-main.js": "/react-recipe-app/static/js/runtime-main.b1e414ef.js",
     "runtime-main.js.map": "/react-recipe-app/static/js/runtime-main.b1e414ef.js.map",
     "static/js/2.feca7869.chunk.js": "/react-recipe-app/static/js/2.feca7869.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b1e414ef.js",
     "static/js/2.feca7869.chunk.js",
     "static/css/main.70621028.chunk.css",
-    "static/js/main.0de2152a.chunk.js"
+    "static/js/main.b41a13c3.chunk.js"
   ]
 }
