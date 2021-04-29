@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <p>{new Date().getFullYear()} &copy; Akari Tsutsui<br />
-        This product uses API from <a href="https://www.edamam.com">EDAMAM</a>
+        This product uses API from <a href="https://www.edamam.com" rel="noopener">EDAMAM</a>
       </p>
       <div className="logo" id="edamam-badge" data-color="light"></div>
     </footer>
