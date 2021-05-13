@@ -12,5 +12,6 @@ demo: [https://akaaariii.github.io/react-recipe-app](https://akaaariii.github.io
 
 ## Tech Stack
 * React
+* React Hooks
 * Sass
 * API
